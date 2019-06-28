@@ -32,6 +32,7 @@ namespace Tienda2.Controllers
                 {
                     usuario.Clave = usuario.Correo;
                     usuario.IndCambio = false;
+                    usuario.Activo = true;
                     UsuarioBL.Crear(usuario);
                 }
                 else

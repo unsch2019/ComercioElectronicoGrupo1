@@ -1,4 +1,4 @@
-﻿using Datos;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    public class UsuarioBL: Repositorio<Usuario>
+    public class UsuarioBL:Repositorio<Datos.Usuario>
     {
     }
 }

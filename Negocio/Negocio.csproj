@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{300EF6F6-6A6B-4B4B-8DB5-F845D4976B84}</ProjectGuid>
+    <ProjectGuid>{E486D2FC-47F8-4157-9D9A-D52345C5B4B8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Negocio</RootNamespace>
@@ -48,13 +48,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MarcaBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio.cs" />
     <Compile Include="UsuarioBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Datos\Datos.csproj">
-      <Project>{1c847b09-8bce-4901-8f88-cae3f7e6e439}</Project>
+      <Project>{feae9e01-e29c-434b-bb6a-be93740c3a51}</Project>
       <Name>Datos</Name>
     </ProjectReference>
   </ItemGroup>
